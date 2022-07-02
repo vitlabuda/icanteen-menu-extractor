@@ -1,0 +1,10 @@
+{
+  "ignore": false,
+  "display_name": "iCanteen Menu Extractor",
+  "description": null,
+  "programming_language": "Java",
+  "priority": 900,
+  "category_id": "libraries",
+  "category_display_name": "Libraries",
+  "category_priority": 900
+}
