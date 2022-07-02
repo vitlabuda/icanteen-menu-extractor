@@ -1,0 +1,304 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+    <head>
+	<!-- SOURCE: https://icanteen.spst.cz/faces/login.jsp @ Fri, 01 Jul 2022 20:23:10 +0200 -->
+        <title>iCanteen - Přihlášení</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="/img/favicon.ico" >
+        <link href="/css/style-2.10.25.css" rel="stylesheet" type="text/css">
+        <link href="/css/login-2.10.25.css" rel="stylesheet" type="text/css">
+        <link type="text/css" href="/css/smoothness/jquery-ui-1.10.3.custom.min.css" rel="Stylesheet" >
+        <link type="text/css" href="/css/ui.notify.css" rel="Stylesheet" >
+        <link rel="stylesheet" href="/fontawesome/css/font-awesome.min.css">
+        <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>        
+    </head>
+    <body>
+        <script type="text/javascript">
+
+            window.onerror = function(msg, url, linenumber) {
+                //alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber)
+                return true;
+            };
+        </script>
+        <script type="text/javascript">
+            <!--                  
+                function checkAddon() {                           
+                if ('' !== 'true' || '' === 'false' ) {
+                    window.location.replace("../terminal.jsp");
+                }
+            }
+
+            var message = "Don't try to right-click";
+            ///////////////////////////////////
+            function clickIE() {
+                if (document.all) {
+                    (message);
+                    return false;
+                }
+            }
+            function clickNS(e) {
+                if
+                        (document.layers || (document.getElementById && !document.all)) {
+                    if (e.which === 2 || e.which === 3) {
+                        (message);
+                        return false;
+                    }
+                }
+            }
+            if (document.layers)
+            {
+                document.captureEvents(Event.MOUSEDOWN);
+                document.onmousedown = clickNS;
+            }
+            else {
+                document.onmouseup = clickNS;
+                document.oncontextmenu = clickIE;
+            }
+
+            document.oncontextmenu = new Function("return false");
+
+            function showlayer(layer) {
+            var myLayer = document.getElementById(layer);
+                    if (myLayer.style.display === "none" || myLayer.style.display === "") {
+            myLayer.style.display = "block";
+            } else {
+            myLayer.style.display = "none";
+            }
+            }
+            // -->
+        </script>
+        <img src="chrome://ickiosk/content/pixel.png" width="0" height="0" onload="javascript: checkAddon()" style="visibility:hidden" alt="kiosk" >
+        
+        
+        
+        
+        <div id="mainContextDiv">
+            
+            
+            
+                <script type="text/javascript">
+                            <!--
+                    $(document).ready(function() {
+                    $('#j_username').focus();
+                    });
+                            // -->
+                </script>            
+                <div id="navbar">
+                    <div id="login_menu" class="login_menu">
+                        
+                        <div id="signup-user-col">
+                            <div>
+                                <form method="POST" name="formName" action="/j_spring_security_check">
+                                    <ul>
+                                        <li>
+                                            <div class="input-group margin-bottom-sm">
+                                                <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+                                                <input class="form-control" type="text" placeholder="Přihlašovací jméno" name="j_username" id="j_username" />
+                                                </div>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                                                    <input class="form-control" type="password" placeholder="Heslo" name="j_password" id="j_password"/>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <input type='checkbox' name='_spring_security_remember_me' class="checkbox-inline"/> Pamatovat si mě na tomto počítači.
+                                            </li>
+                                            <li>
+                                                <input type="hidden" name="terminal" value="false"/>
+                                                <input type="hidden" name="type" value="web"/>
+                                                <input type="hidden" name="targetUrl" value="/faces/secured/main.jsp?terminal=false&amp;status=true&amp;printer=&amp;keyboard="/>
+                                            <input type="submit" value="Přihlásit" class="btn btn-primary"/>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jidelnicek jidelnicekWeb">
+                    
+                    
+                        
+                            
+
+
+
+
+
+
+<div class="jidelnicekDen">
+    <div id="day-2022-07-01" align="left">
+        <strong>Jídelníček na  
+            <font color="#AF1014">
+            Pátek
+            </font> - 
+            <font color="#AF1014">
+            01.07.2022
+            </font>
+        </strong>
+    </div>
+    
+    <div align="left">
+        
+            <div style="padding: 2 0 2 20">
+                <span class="smallBoldTitle" style="color: #1b75bb;">Oběd1</span> --
+                <span style="color:green;">Hlavní</span> -- 
+                
+                    
+                
+                    Polévka gulášová , kynuté  knedlíky s ovocem sypané mákem , ovoce, nápoje
+                
+
+                
+                    
+                    
+                        <span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>)</span>
+                    
+                                
+            </div>
+        
+    </div>
+</div>                        
+                        
+                            
+
+
+
+
+
+
+<div class="jidelnicekDen">
+    <div id="day-2022-07-04" align="left">
+        <strong>Jídelníček na  
+            <font color="#AF1014">
+            Pondělí
+            </font> - 
+            <font color="#AF1014">
+            04.07.2022
+            </font>
+        </strong>
+    </div>
+    
+    <div align="left">
+        
+            <div style="padding: 2 0 2 20">
+                <span class="smallBoldTitle" style="color: #1b75bb;">Oběd1</span> --
+                <span style="color:green;">Hlavní</span> -- 
+                
+                    
+                
+                    Polévka risi - bisi, vepřové nudličky po valticku, těstoviny, vitamaxima,  dezert
+                
+
+                
+                    
+                    
+                        <span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Celer a výrobky z  něj">9</span>)</span>
+                    
+                                
+            </div>
+        
+    </div>
+</div>                        
+                        
+                            
+
+
+
+
+
+
+<div class="jidelnicekDen">
+    <div id="day-2022-07-07" align="left">
+        <strong>Jídelníček na  
+            <font color="#AF1014">
+            Čtvrtek
+            </font> - 
+            <font color="#AF1014">
+            07.07.2022
+            </font>
+        </strong>
+    </div>
+    
+    <div align="left">
+        
+            <div style="padding: 2 0 2 20">
+                <span class="smallBoldTitle" style="color: #1b75bb;">Oběd1</span> --
+                <span style="color:green;">Hlavní</span> -- 
+                
+                    
+                
+                    Polévka kapustová s bramborem, sekaná pečeně, vařené brambory m.m., hlávkový salát, vitamaxima
+                
+
+                
+                    
+                    
+                        <span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>)</span>
+                    
+                                
+            </div>
+        
+    </div>
+</div>                        
+                        
+                            
+
+
+
+
+
+
+<div class="jidelnicekDen">
+    <div id="day-2022-07-08" align="left">
+        <strong>Jídelníček na  
+            <font color="#AF1014">
+            Pátek
+            </font> - 
+            <font color="#AF1014">
+            08.07.2022
+            </font>
+        </strong>
+    </div>
+    
+    <div align="left">
+        
+            <div style="padding: 2 0 2 20">
+                <span class="smallBoldTitle" style="color: #1b75bb;">Oběd1</span> --
+                <span style="color:green;">Hlavní</span> -- 
+                
+                    
+                
+                    Polévka s krupicovými noky, mexický guláš, rýže jasmínová, vitamaxima, puding 
+                
+
+                
+                    
+                    
+                        <span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>)</span>
+                    
+                                
+            </div>
+        
+    </div>
+</div>                        
+                        
+                    
+                </div>
+            
+        </div>
+        <div align="center" class="topMenu textGrey noPrint" style="position: relative; clear: both; z-index:1; text-align: center; margin-top: 10px">iCanteen verze 2.10.25 | 2022-07-01 08:22:27 | &copy; Z-WARE 2003-2015</div>
+    </body>
+</html>

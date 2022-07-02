@@ -1,0 +1,1263 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+    <head>
+	<!-- SOURCE: http://jidelna.ssis.cz/login @ Fri, 01 Jul 2022 20:21:45 +0200 -->
+        <title>iCanteen - přihlášení uživatele</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="/img/favicon.ico" >
+        <link href="/css/style-2.18.21.css" rel="stylesheet" type="text/css">
+        <link href="/css/login-2.18.21.css" rel="stylesheet" type="text/css">
+        
+        <link type="text/css" href="/css/smoothness/jquery-ui-1.10.3.custom.min.css" rel="Stylesheet" >
+        <link type="text/css" href="/css/jquery.lighter.css" rel="stylesheet" >
+        <link type="text/css" href="/css/ui.notify.css" rel="Stylesheet" >
+        <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+        <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.browser.mobile.js"></script>
+        <script type="text/javascript" src="/js/jquery.lighter.js"></script>
+    </head>
+    <body>
+        
+            
+            <script type="text/javascript">
+
+                window.onerror = function (msg, url, linenumber) {
+                    //alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber)
+                    return true;
+                };
+            </script>
+            <script type="text/javascript">
+                <!--
+                function checkAddon() {
+                    setTimeout(function(){
+                        var showPrinter = document.getElementById("showPrinter").checked;
+                        var showKeyboard = document.getElementById("showKeyboard").checked;
+
+                        if ('' !== 'true' || '' === 'false' ||
+                             !== showPrinter ||
+                             !== showKeyboard
+                        ) {
+                            window.location.replace("/terminal.jsp?printer=" + showPrinter + "&keyboard=" + showKeyboard);
+                        }
+                    }, 150);
+                }
+
+                window.addEventListener( "pageshow", function ( event ) {
+                    var historyTraversal = event.persisted ||
+                        ( typeof window.performance != "undefined" &&
+                            window.performance.navigation.type === 2 );
+                    if ( historyTraversal ) {
+                        // Handle page restore.
+                        window.location.reload();
+                    }
+                });
+
+                var message = "Don't try to right-click";
+                ///////////////////////////////////
+                function clickIE() {
+                    if (document.all) {
+                        (message);
+                        return false;
+                    }
+                }
+                function clickNS(e) {
+                    if
+                            (document.layers || (document.getElementById && !document.all)) {
+                        if (e.which === 2 || e.which === 3) {
+                            (message);
+                            return false;
+                        }
+                    }
+                }
+                if (document.layers)
+                {
+                    document.captureEvents(Event.MOUSEDOWN);
+                    document.onmousedown = clickNS;
+                } else {
+                    document.onmouseup = clickNS;
+                    document.oncontextmenu = clickIE;
+                }
+
+                document.oncontextmenu = new Function("return false");
+
+                function showlayer(layer) {
+                    var myLayer = document.getElementById(layer);
+                    if (myLayer.style.display === "none" || myLayer.style.display === "") {
+                        myLayer.style.display = "block";
+                    } else {
+                        myLayer.style.display = "none";
+                    }
+                }
+                // -->
+        </script>
+                
+            
+                
+                
+                
+                <div id="mainContextDiv">
+                    
+                
+                        
+                <script type="text/javascript">
+                    <!--
+                    $(document).ready(function () {
+                        $('#j_username').focus();
+                                });
+                    // -->
+                            </script>                                                                                                   
+                <div id="navbar">
+                                <div id="login_menu" class="login_menu login_menu_margin">
+                                <div><img src="/img/logo.png" alt="logo" onmousedown="if (event.preventDefault)
+                                                event.preventDefault();" /></div>
+                                    <div style="float: right;">
+                                        
+                                    </div>
+                                    
+                                    <div id="signup-user-col">
+                                        <div>
+                                            <form method="POST" name="formName" action="/j_spring_security_check">
+                                                <ul>
+                                                    <li>
+                                                        <div class="input-group margin-bottom-sm">
+                                                            <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+                                                            <input class="form-control" type="text" placeholder="Přihlašovací jméno" name="j_username" id="j_username"  required/>
+                                                            </div>
+                                                            <div class="input-group">
+                                                                <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                                                                <input class="form-control" type="password" placeholder="Heslo" name="j_password" id="j_password" autocomplete="current-password" required/>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <input type='checkbox' name='_spring_security_remember_me' class="checkbox-inline"/> Neodhlašovat mě na tomto počítači.
+                                                    </li>
+                                                    <li>
+                                                        <input type="hidden" name="terminal" value="false"/>
+                                                        <input type="hidden" name="_csrf" value="f1bd764b-4d39-4335-b33d-ce7e6b3398a8"/> 
+                                                        <input type="hidden" name="targetUrl" value="/faces/secured/main.jsp?terminal=false&amp;status=true&amp;printer=&amp;keyboard="/>
+                                                        <input type="submit" value="Přihlásit" class="btn btn-primary btn-login"/>
+                                                    </li>
+                                                </ul>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div style="margin-top: 10px;">
+                                        
+                                            <a href="/passwordrecovery">Obnovení přihlašovacích údajů</a>
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jidelnicek jidelnicekWeb">
+                                
+                                
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-01" class="jidelnicekTop semibold">
+            Jídelníček na  01.07.2022 - Pátek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Zeleninový vývar s  tarhoňou 
+                                                , 
+                                            
+                                                 hovězí pečeně frankfurtská 
+                                                , 
+                                            
+                                                 houskový knedlík -rýže 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Zeleninový vývar s  tarhoňou 
+                                                , 
+                                            
+                                                 francouzské brambory 
+                                                , 
+                                            
+                                                 rajčatový salát 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-04" class="jidelnicekTop semibold">
+            Jídelníček na  04.07.2022 - Pondělí
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Hrachová  
+                                                , 
+                                            
+                                                 rozstřelený ptáček 
+                                                , 
+                                            
+                                                 rýže dušená 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Hořčice a  výrobky z ní">10</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Hrachová  
+                                                , 
+                                            
+                                                 květák jako mozeček 
+                                                , 
+                                            
+                                                 brambory vařené m.m. 
+                                                , 
+                                            
+                                                 kompot 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-07" class="jidelnicekTop semibold">
+            Jídelníček na  07.07.2022 - Čtvrtek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Hovězí vývar s  těstovinou 
+                                                , 
+                                            
+                                                 vepřová pečeně 
+                                                , 
+                                            
+                                                 bramborové knedlíky  
+                                                , 
+                                            
+                                                 zelí hlávkové  
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Hovězí vývar s  těstovinou 
+                                                , 
+                                            
+                                                 smažený sýr  
+                                                , 
+                                            
+                                                 brambory vařené 
+                                                , 
+                                            
+                                                 dresink 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-08" class="jidelnicekTop semibold">
+            Jídelníček na  08.07.2022 - Pátek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Květáková polévka 
+                                                , 
+                                            
+                                                 hovězí zadní 
+                                                , 
+                                            
+                                                 rajská omáčka 
+                                                , 
+                                            
+                                                 houskové knedlíky  
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Květáková polévka 
+                                                , 
+                                            
+                                                 soukenický řízek 
+                                                , 
+                                            
+                                                 brambory šťouchané 
+                                                , 
+                                            
+                                                 okurkový salát 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-11" class="jidelnicekTop semibold">
+            Jídelníček na  11.07.2022 - Pondělí
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Čočková  
+                                                , 
+                                            
+                                                 sekaná pečeně 
+                                                , 
+                                            
+                                                 bramborové knedlíky  
+                                                , 
+                                            
+                                                 zelí hlávkové  
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Čočková  
+                                                , 
+                                            
+                                                 těstovinový salát se zeleninou 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-12" class="jidelnicekTop semibold">
+            Jídelníček na  12.07.2022 - Úterý
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Zeleninový vývar s  tarhoňou 
+                                                , 
+                                            
+                                                 smažený květák 
+                                                , 
+                                            
+                                                 brambory vařené 
+                                                , 
+                                            
+                                                 dresink 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Zeleninový vývar s  tarhoňou 
+                                                , 
+                                            
+                                                 vepřové maso na paprice 
+                                                , 
+                                            
+                                                 těstoviny 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-13" class="jidelnicekTop semibold">
+            Jídelníček na  13.07.2022 - Středa
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Frankfurtská  s bramborem 
+                                                , 
+                                            
+                                                 kynuté knedlíky s borůvkami 
+                                                , 
+                                            
+                                                 ovoce 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Frankfurtská  s bramborem 
+                                                , 
+                                            
+                                                 smažený kuřecí řízek 
+                                                , 
+                                            
+                                                 bramborová kaše m.m. 
+                                                , 
+                                            
+                                                 rajčatový salát 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-14" class="jidelnicekTop semibold">
+            Jídelníček na  14.07.2022 - Čtvrtek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Česneková s bramborem  
+                                                , 
+                                            
+                                                 masová směs 
+                                                , 
+                                            
+                                                 hranolky 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Česneková s bramborem  
+                                                , 
+                                            
+                                                 bramborový guláš s uzeninou 
+                                                , 
+                                            
+                                                 chléb 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-15" class="jidelnicekTop semibold">
+            Jídelníček na  15.07.2022 - Pátek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Brokolicová 
+                                                , 
+                                            
+                                                 svíčková na smetaně 
+                                                , 
+                                            
+                                                 houskové knedlíky  
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Brokolicová 
+                                                , 
+                                            
+                                                 asijské nudle s kuřecím masem a zeleninou 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                                <sub><span class="textGrey">(<span title="Obiloviny obsahující lepek–nejedná se o celiakii, výrobky z nich">1</span>, <span title="Vejce a výrobky z nich - patří mezi potraviny ohrožující život">3</span>, <span title="Sójové boby (sója) a výrobky z nich">6</span>, <span title="Mléko  a  výrobky  z  něj - patří mezi potraviny ohrožující život">7</span>, <span title="Celer a výrobky z  něj">9</span>, <span title="Oxid siřičitý a siřičitany v koncentracích vyšších než 10 mg, ml/kg, l, vyjádřeno SO2">12</span>)</span></sub>
+                            
+                        
+                        
+                            
+                                
+                                
+                            
+                                
+                                
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                
+                                                        
+                            </div>
+                        
+                        </div>
+            <input type="checkbox" id="showPrinter"  style="visibility:hidden">
+            <input type="checkbox" id="showKeyboard"  style="visibility:hidden">
+            <img src="chrome://ickiosk/content/pixel.png" width="0" height="0" onload="checkAddon();" style="visibility:hidden" alt="kiosk-ff" />
+            <img src="moz-extension://b403e622-51fd-438c-9439-4c249438f620/pixel.png" width="0" height="0" onload="setTimeout(checkAddon(), 1000);" style="visibility:hidden" alt="kiosk-firefox" />
+            <img src="chrome-extension://afjpbnenpfjkflbfdblenihgbigkjcnj/pixel.png" width="0" height="0" onload="setTimeout(checkAddon(), 1000);" style="visibility:hidden" alt="kiosk-chrome" />
+            
+                            <div class="help noPrint" title="Zobrazí nápovědu a popis funkcí programu"><a href="/help" alt="Otevřít nápovědu"><i class="fa fa-question fa-2x"></i></a></div>
+                        
+            <div align="center" class="textGrey noPrint" style="position: relative; clear: both; z-index:1; text-align: center; margin-top: 10px">iCanteen 2.18.21 | 2022-07-01 08:21:28 | &copy; <a href="https://www.z-ware.cz">Z-WARE s.r.o.</a> 2003-2022
+                
+            </div>
+                    
+                    </body>
+                    </html>

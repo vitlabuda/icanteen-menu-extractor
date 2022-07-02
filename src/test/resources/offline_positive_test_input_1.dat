@@ -1,0 +1,303 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+    <head>
+	<!-- SOURCE: https://strav.nasejidelna.cz/demo/login @ Fri, 01 Jul 2022 20:20:49 +0200 -->
+        <title>iCanteen - přihlášení uživatele</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="/demo/img/favicon.ico" >
+        <link href="/demo/css/style-2.18.19.css" rel="stylesheet" type="text/css">
+        <link href="/demo/css/login-2.18.19.css" rel="stylesheet" type="text/css">
+        
+        <link type="text/css" href="/demo/css/smoothness/jquery-ui-1.10.3.custom.min.css" rel="Stylesheet" >
+        <link type="text/css" href="/demo/css/jquery.lighter.css" rel="stylesheet" >
+        <link type="text/css" href="/demo/css/ui.notify.css" rel="Stylesheet" >
+        <link rel="stylesheet" href="/demo/fontawesome/css/all.min.css">
+        <script type="text/javascript" src="/demo/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/demo/js/jquery.browser.mobile.js"></script>
+        <script type="text/javascript" src="/demo/js/jquery.lighter.js"></script>
+    </head>
+    <body>
+        
+            
+            <script type="text/javascript">
+
+                window.onerror = function (msg, url, linenumber) {
+                    //alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber)
+                    return true;
+                };
+            </script>
+            <script type="text/javascript">
+                <!--
+                function checkAddon() {
+                    setTimeout(function(){
+                        var showPrinter = document.getElementById("showPrinter").checked;
+                        var showKeyboard = document.getElementById("showKeyboard").checked;
+
+                        if ('' !== 'true' || '' === 'false' ||
+                             !== showPrinter ||
+                             !== showKeyboard
+                        ) {
+                            window.location.replace("/demo/terminal.jsp?printer=" + showPrinter + "&keyboard=" + showKeyboard);
+                        }
+                    }, 150);
+                }
+
+                window.addEventListener( "pageshow", function ( event ) {
+                    var historyTraversal = event.persisted ||
+                        ( typeof window.performance != "undefined" &&
+                            window.performance.navigation.type === 2 );
+                    if ( historyTraversal ) {
+                        // Handle page restore.
+                        window.location.reload();
+                    }
+                });
+
+                var message = "Don't try to right-click";
+                ///////////////////////////////////
+                function clickIE() {
+                    if (document.all) {
+                        (message);
+                        return false;
+                    }
+                }
+                function clickNS(e) {
+                    if
+                            (document.layers || (document.getElementById && !document.all)) {
+                        if (e.which === 2 || e.which === 3) {
+                            (message);
+                            return false;
+                        }
+                    }
+                }
+                if (document.layers)
+                {
+                    document.captureEvents(Event.MOUSEDOWN);
+                    document.onmousedown = clickNS;
+                } else {
+                    document.onmouseup = clickNS;
+                    document.oncontextmenu = clickIE;
+                }
+
+                document.oncontextmenu = new Function("return false");
+
+                function showlayer(layer) {
+                    var myLayer = document.getElementById(layer);
+                    if (myLayer.style.display === "none" || myLayer.style.display === "") {
+                        myLayer.style.display = "block";
+                    } else {
+                        myLayer.style.display = "none";
+                    }
+                }
+                // -->
+        </script>
+                
+            
+                
+                
+                
+                <div id="mainContextDiv">
+                    
+                
+                        
+                <script type="text/javascript">
+                    <!--
+                    $(document).ready(function () {
+                        $('#j_username').focus();
+                                });
+                    // -->
+                            </script>                                                                                                   
+                <div id="navbar">
+                                <div id="login_menu" class="login_menu login_menu_margin">
+                                <div><img src="/demo/img/logo.png" alt="logo" onmousedown="if (event.preventDefault)
+                                                event.preventDefault();" /></div>
+                                    <div style="float: right;">
+                                        
+                                    </div>
+                                    
+                                    <div id="signup-user-col">
+                                        <div>
+                                            <form method="POST" name="formName" action="/demo/j_spring_security_check">
+                                                <ul>
+                                                    <li>
+                                                        <div class="input-group margin-bottom-sm">
+                                                            <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+                                                            <input class="form-control" type="text" placeholder="Přihlašovací jméno" name="j_username" id="j_username"  required/>
+                                                            </div>
+                                                            <div class="input-group">
+                                                                <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                                                                <input class="form-control" type="password" placeholder="Heslo" name="j_password" id="j_password" required/>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <input type='checkbox' name='_spring_security_remember_me' class="checkbox-inline"/> Neodhlašovat mě na tomto počítači.
+                                                    </li>
+                                                    <li>
+                                                        <input type="hidden" name="terminal" value="false"/>
+                                                        <input type="hidden" name="_csrf" value="cc5adcec-31bb-4ac9-b3c0-9b9aa5a2efee"/> 
+                                                        <input type="hidden" name="targetUrl" value="/faces/secured/main.jsp?terminal=false&amp;status=true&amp;printer=&amp;keyboard="/>
+                                                        <input type="submit" value="Přihlásit" class="btn btn-primary btn-login"/>
+                                                    </li>
+                                                </ul>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div style="margin-top: 10px;">
+                                        
+                                            <a href="/demo/passwordrecovery">Obnovení přihlašovacích údajů</a>
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jidelnicek jidelnicekWeb">
+                                
+                                
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2022-07-01" class="jidelnicekTop semibold">
+            Jídelníček na  01.07.2022 - Pátek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Slepičí polévka s masem a rýží 
+                                                , 
+                                            
+                                                 pečené kuřecí stehno 
+                                                , 
+                                            
+                                                 rýže dušená 
+                                                , 
+                                            
+                                                 míchaný salát 
+                                                , 
+                                            
+                                                 čaj 
+                                                , 
+                                            
+                                                 ovocný nápoj 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                        
+                        
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                Slepičí polévka s masem a rýží 
+                                                , 
+                                            
+                                                 vepřová játra po ševcovsku 
+                                                , 
+                                            
+                                                 hranolky 
+                                                , 
+                                            
+                                                 míchaný salát 
+                                                , 
+                                            
+                                                 čaj 
+                                                , 
+                                            
+                                                 ovocný nápoj 
+                                                
+                                            
+                                        
+                                    
+                                
+
+                            
+                            
+                        
+                        
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                
+                                                        
+                            </div>
+                        
+                        </div>
+            <input type="checkbox" id="showPrinter"  style="visibility:hidden">
+            <input type="checkbox" id="showKeyboard"  style="visibility:hidden">
+            <img src="chrome://ickiosk/content/pixel.png" width="0" height="0" onload="checkAddon();" style="visibility:hidden" alt="kiosk-ff" />
+            <img src="moz-extension://b403e622-51fd-438c-9439-4c249438f620/pixel.png" width="0" height="0" onload="setTimeout(checkAddon(), 1000);" style="visibility:hidden" alt="kiosk-firefox" />
+            <img src="chrome-extension://afjpbnenpfjkflbfdblenihgbigkjcnj/pixel.png" width="0" height="0" onload="setTimeout(checkAddon(), 1000);" style="visibility:hidden" alt="kiosk-chrome" />
+            
+                            <div class="help noPrint" title="Zobrazí nápovědu a popis funkcí programu"><a href="/demo/help" alt="Otevřít nápovědu"><i class="fa fa-question fa-2x"></i></a></div>
+                        
+            <div align="center" class="textGrey noPrint" style="position: relative; clear: both; z-index:1; text-align: center; margin-top: 10px">iCanteen 2.18.19 | 2022-07-01 08:18:14 | &copy; <a href="https://www.z-ware.cz">Z-WARE s.r.o.</a> 2003-2022
+                
+            </div>
+                    
+                    </body>
+                    </html>

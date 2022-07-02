@@ -1,0 +1,661 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+    <head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app200.us.archive.org';v.server_ms=277;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://strav.nasejidelna.cz/0051/login","20201125014247","https://web.archive.org/","web","/_static/",
+	      "1606268567");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<!-- SOURCE: https://web.archive.org/web/20201125014247/https://strav.nasejidelna.cz/0051/login @ Fri, 01 Jul 2022 21:48:31 +0200 -->
+        <title>iCanteen - Přihlášení</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://web.archive.org/web/20201125014247cs_/https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300&amp;subset=latin-ext,latin" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="/web/20201125014247im_/https://strav.nasejidelna.cz/0051/img/favicon.ico">
+        <link href="/web/20201125014247cs_/https://strav.nasejidelna.cz/0051/css/style-2.17.14.css" rel="stylesheet" type="text/css">
+        <link href="/web/20201125014247cs_/https://strav.nasejidelna.cz/0051/css/login-2.17.14.css" rel="stylesheet" type="text/css">
+        
+        <link type="text/css" href="/web/20201125014247cs_/https://strav.nasejidelna.cz/0051/css/smoothness/jquery-ui-1.10.3.custom.min.css" rel="Stylesheet">
+        <link type="text/css" href="/web/20201125014247cs_/https://strav.nasejidelna.cz/0051/css/ui.notify.css" rel="Stylesheet">
+        <link rel="stylesheet" href="/web/20201125014247cs_/https://strav.nasejidelna.cz/0051/fontawesome/css/all.min.css">
+        <script type="text/javascript" src="/web/20201125014247js_/https://strav.nasejidelna.cz/0051/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/web/20201125014247js_/https://strav.nasejidelna.cz/0051/js/jquery.browser.mobile.js"></script>
+    </head>
+    <body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20201125014247/https%3A//strav.nasejidelna.cz/0051/login"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://strav.nasejidelna.cz/0051/login" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20201125014247" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+		<div class="s" id="wm-nav-captures">
+	  	  <a class="t" href="/web/20201125014247*/https://strav.nasejidelna.cz/0051/login" title="See a list of every capture for this URL">5 captures</a>
+	  <div class="r" title="Timespan for captures of this URL">25 Nov 2020 - 14 Jun 2021</div>
+	  </div>
+	<div class="k" style="flex:1;">
+	  <a href="" id="wm-graph-anchor">
+	    <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+	      <canvas id="wm-sparkline-canvas" width="675" height="27" border="0"></canvas>
+	    </div>
+	  </a>
+	</div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+	<tbody>
+	  <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+	  <tr class="m">
+	    <td class="b" nowrap="nowrap">Oct</td>
+	    <td class="c" id="displayMonthEl" title="You are here: 01:42:47 Nov 25, 2020">NOV</td>
+	    <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210118094006/https://strav.nasejidelna.cz/0051/login" title="18 Jan 2021"><strong>Jan</strong></a></td>
+	  </tr>
+	  <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+	  <tr class="d">
+	    <td class="b" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+	    <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 01:42:47 Nov 25, 2020">25</td>
+	    <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210118094006/https://strav.nasejidelna.cz/0051/login" title="09:40:06 Jan 18, 2021"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+	  </tr>
+	  <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+	  <tr class="y">
+	    <td class="b" nowrap="nowrap">2019</td>
+	    <td class="c" id="displayYearEl" title="You are here: 01:42:47 Nov 25, 2020">2020</td>
+	    <td class="f" nowrap="nowrap">2021</td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+        	<span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#"
+	     title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+	</span>
+        	<a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20201125014247/http://web.archive.org/screenshot/https://strav.nasejidelna.cz/0051/login"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+	<a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20201125014247/https://strav.nasejidelna.cz/0051/login" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20201125014247/https://strav.nasejidelna.cz/0051/login" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+	<a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+                    <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new"><span class="wm-title">Common Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web crawl data from Common Crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20201125014247/https://strav.nasejidelna.cz/0051/login</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(675,27,25,2,"web","https://strav.nasejidelna.cz/0051/login","20201125014247",1996,"/_static/",["/_static/css/banner-styles.css?v=fantwOh2","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+        
+            
+            <script type="text/javascript">
+
+                window.onerror = function (msg, url, linenumber) {
+                    //alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber)
+                    return true;
+                };
+            </script>
+            <script type="text/javascript">
+                <!--
+                function checkAddon() {
+                    if ('' !== 'true' || '' === 'false') {
+                        window.location.replace("/0051/terminal.jsp");
+                    }
+                }
+
+                var message = "Don't try to right-click";
+                ///////////////////////////////////
+                function clickIE() {
+                    if (document.all) {
+                        (message);
+                        return false;
+                    }
+                }
+                function clickNS(e) {
+                    if
+                            (document.layers || (document.getElementById && !document.all)) {
+                        if (e.which === 2 || e.which === 3) {
+                            (message);
+                            return false;
+                        }
+                    }
+                }
+                if (document.layers)
+                {
+                    document.captureEvents(Event.MOUSEDOWN);
+                    document.onmousedown = clickNS;
+                } else {
+                    document.onmouseup = clickNS;
+                    document.oncontextmenu = clickIE;
+                }
+
+                document.oncontextmenu = new Function("return false");
+
+                function showlayer(layer) {
+                    var myLayer = document.getElementById(layer);
+                    if (myLayer.style.display === "none" || myLayer.style.display === "") {
+                        myLayer.style.display = "block";
+                    } else {
+                        myLayer.style.display = "none";
+                    }
+                }
+                // -->
+        </script>
+            <img src="https://web.archive.org/web/20201125014247im_/chrome://ickiosk/content/pixel.png" width="0" height="0" onload="javascript: checkAddon()" style="visibility:hidden" alt="kiosk-ff"/>
+            <img src="https://web.archive.org/web/20201125014247im_/moz-extension://b403e622-51fd-438c-9439-4c249438f620/pixel.png" width="0" height="0" onload="javascript: checkAddon()" style="visibility:hidden" alt="kiosk-firefox"/>
+            <img src="https://web.archive.org/web/20201125014247im_/chrome-extension://afjpbnenpfjkflbfdblenihgbigkjcnj/pixel.png" width="0" height="0" onload="javascript: checkAddon()" style="visibility:hidden" alt="kiosk-chrome"/>
+                
+                
+                
+                
+                <div id="mainContextDiv">
+                    
+                
+                        
+                <script type="text/javascript">
+                    <!--
+                    $(document).ready(function () {
+                        $('#j_username').focus();
+                                });
+                    // -->
+                            </script>                                                                                                   
+                <div id="navbar">
+                                <div id="login_menu" class="login_menu login_menu_margin">
+                                <div><img src="/web/20201125014247im_/https://strav.nasejidelna.cz/0051/img/logo.png" alt="logo"/></div>
+                                    <div style="float: right;">
+                                        
+                                    </div>
+                                    <div id="signup-user-col">
+                                        <div>
+                                            <form method="POST" name="formName" action="/web/20201125014247/https://strav.nasejidelna.cz/0051/j_spring_security_check">
+                                                <ul>
+                                                    <li>
+                                                        <div class="input-group margin-bottom-sm">
+                                                            <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+                                                            <input class="form-control" type="text" placeholder="Přihlašovací jméno" name="j_username" id="j_username" required/>
+                                                            </div>
+                                                            <div class="input-group">
+                                                                <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                                                                <input class="form-control" type="password" placeholder="Heslo" name="j_password" id="j_password" required/>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="_spring_security_remember_me" class="checkbox-inline"/> Neodhlašovat mě na tomto počítači.
+                                                    </li>
+                                                    <li>
+                                                        <input type="hidden" name="terminal" value="false"/>
+                                                        <input type="hidden" name="_csrf" value="fa33ccff-85d9-4cc2-aea5-78ddeb98d5e1"/> 
+                                                        <input type="hidden" name="targetUrl" value="/faces/secured/main.jsp?terminal=false&amp;status=true&amp;printer=&amp;keyboard="/>
+                                                        <input type="submit" value="Přihlásit" class="btn btn-primary btn-login"/>
+                                                    </li>
+                                                </ul>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 10px;">
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jidelnicek jidelnicekWeb">
+                                
+                                
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2020-11-25" class="jidelnicekTop semibold">
+            Jídelníček na  25.11.2020 - Středa
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Cibulová polévka s bramborem*,Hovězí maso po lovecku*,houskový knedlík*,čaj
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2020-11-26" class="jidelnicekTop semibold">
+            Jídelníček na  26.11.2020 - Čtvrtek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Fazolová polévka*,Domácí buchty s borůvkovou marmeládou*,sladké mlléko*,ovoce
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2020-11-27" class="jidelnicekTop semibold">
+            Jídelníček na  27.11.2020 - Pátek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Hovězí vývar s krupicovými noky*,Koprová omáčka s vařeným vejcem a bramborem*,čaj
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Hovězí vývar s krupicovými noky*,Smažená krůtí játra*,brambor*,zeleninová obloha*,čaj
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2020-11-30" class="jidelnicekTop semibold">
+            Jídelníček na  30.11.2020 - Pondělí
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Zeleninová polévka s drožďovými knedlíčky*,Moravský vrabec*,bramborový knedlík*,dušený špenát, čaj
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2020-12-01" class="jidelnicekTop semibold">
+            Jídelníček na  01.12.2020 - Úterý
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Koprová polévka s bramborem a vejcem*,Pečené kuřecí stehno, dušená rýže*,mošt
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Koprová polévka s bramborem a vejcem*,Kuskus s kuřecím masem a zeleninou*,mošt
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2020-12-02" class="jidelnicekTop semibold">
+            Jídelníček na  02.12.2020 - Středa
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Bramborová polévka*,Čevabčiči s hořčicí a cibulí, brambory, džus
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Bramborová polévka*,Pečený lososvý pstruh filet na citronovém pepři*,brambor*,džus
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2020-12-03" class="jidelnicekTop semibold">
+            Jídelníček na  03.12.2020 - Čtvrtek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Hovězí vývar s těstovinou*,Hovězí svíčková pečeně*,houskový knedlík*,čaj
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                        
+
+
+
+
+
+
+
+
+
+    
+    <div class="jidelnicekDen">
+        <div id="day-2020-12-04" class="jidelnicekTop semibold">
+            Jídelníček na  04.12.2020 - Pátek
+        </div>
+        <article>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 1</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Čočková polévka*,Zapečené těstoviny s uzeninou, zeleninová obloha*,čaj
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="shrinkedColumn smallBoldTitle jidelnicekItem">
+                        <span style="color: #1b75bb;">Oběd 2</span>
+                    </div>
+                    
+                    <div class="column jidelnicekItem">
+                        Čočková polévka*,Rýžová kaše s jahodami sypaná skořicovými čtverečky, sladké mléko/A1.1,7/
+                        
+                            
+                            
+                        
+                    </div>
+                </div>
+            
+        </article>
+    </div>
+
+                        
+                                    
+                                
+                                                        
+                            </div>
+                        
+                        </div>
+                        
+                            <div class="help noPrint" title="Zobrazí nápovědu a popis funkcí programu"><a href="/web/20201125014247/https://strav.nasejidelna.cz/0051/help" alt="Otevřít nápovědu"><i class="fa fa-question fa-2x"></i></a></div>
+                        
+            <div align="center" class="textGrey noPrint" style="position: relative; clear: both; z-index:1; text-align: center; margin-top: 10px">iCanteen 2.17.14 | 2020-11-25 02:42:47 | &copy; <a href="https://web.archive.org/web/20201125014247/https://www.z-ware.cz/">Z-WARE s.r.o.</a> 2003-2020</div>
+                    
+                    </body>
+                    </html>
+<!--
+     FILE ARCHIVED ON 01:42:47 Nov 25, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:46:38 Jul 01, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 72.157
+  exclusion.robots: 0.336
+  exclusion.robots.policy: 0.323
+  cdx.remote: 0.108
+  esindex: 0.017
+  LoadShardBlock: 46.973 (3)
+  PetaboxLoader3.datanode: 61.812 (4)
+  CDXLines.iter: 16.244 (3)
+  load_resource: 196.56
+  PetaboxLoader3.resolve: 164.717
+-->
